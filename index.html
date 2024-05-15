@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Sticks Records</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #ffd700;         
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        nav {
+            display: flex; /* Despliega los elementos horizontalmente */
+            justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+            align-items: center; /* Centra verticalmente los elementos */
+            margin-bottom: 50px;
+            position: sticky; /* Hace que el nav sea pegajoso */
+            top: 0; /* Lo fija en la parte superior */
+            background-color: #000000; /* Color de fondo para destacar */
+            z-index: 1000; /* Asegura que esté por encima del contenido */
+            width: 100%; /* Ocupa todo el ancho */
+            padding: 10px 0; /* Agregar un poco de espacio alrededor */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffd700; 
+        }
+
+        nav a:hover {
+            color: #fff; 
+        }
+
+        .logo img {
+            max-width: 250px; /* Ajusta el tamaño máximo de la imagen del menu nav */
+            height: auto; /* Permitir que la altura se ajuste automáticamente */
+        }
+
+        .newsletter {
+            margin-top: 50px;
+            text-align: center; /* Centrar el formulario de suscripción */
+        }
+
+        .newsletter h3 {
+            margin-bottom: 20px; /* Espacio entre el título y el formulario */
+        }
+
+        .newsletter form {
+            display: flex;
+            justify-content: center; /* Centrar los elementos del formulario */
+            align-items: center; /* Centrar verticalmente los elementos del formulario */
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px; /* Espacio entre el campo de entrada y el botón */
+        }
+
+        .newsletter input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffd700; /* Color de fondo dorado */
+            color: #000; /* Color de texto negro */
+            cursor: pointer;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center; /* Centrar el pie de página */
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Centrar los íconos sociales */
+        }
+
+        .social-icons li {
+            margin-right: 10px; /* Espacio entre los íconos sociales */
+        }
+
+        .footer-links {
+            margin-top: 20px; /* Espacio entre los íconos sociales y los enlaces de pie de página */
+        }
+
+        .footer-links a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 15px; /* Espacio entre los enlaces de pie de página */
+        }
+
+        .footer-links a:hover {
+            color: #fff; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>        
+            
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <div class="logo">
+                    <img src="img/Logo.png" alt="Logo de la página">
+                </div>
+                <li><a href="quienes_somos.html">Quienes somos</a></li>
+                <li><a href="postulaciones.html">Postulaciones</a></li>
+            
+        </nav>
+
+        <div class="slider-box">
+
+            <ul>
+                <li>
+                    <img src="img\singles\Portada 1.jpg" alt="">
+                </li>        
+            
+                <li>
+                    <img src="img\singles\Portada 2.jpg" alt="">
+                </li>  
+            
+                <li>
+                    <img src="img\singles\Portada 3.jpg" alt="">
+                </li>
+                        
+                <li>
+                    <img src="img\singles\Portada 4.jpg" alt="">
+                </li>        
+            
+                <li>
+                    <img src="img\singles\Portada 5.jpg" alt="">
+                </li>
+            </ul>
+        </div>      
+        
+    </div>
+    
+    <div class="content-container">           
+
+        <!-- Caja de suscripción para el boletín -->
+        <div class="newsletter">
+            <h1>Suscríbete a nuestro boletín de noticias</h1>
+            <h4>enterate de todos nuestros eventos, lanzamientos y noticias</h4>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <input type="submit" value="Suscribirse">
+            </form>
+        </div>
+    </div>      
+
+
+    <div class="background-image">
+        <div class="background-text">Estudio musical<h2>Soñando en grande</h2></div>
+            
+        <img src="img\stay-connected-background.jpg" alt="">        
+        </div>
+    </div>
+
+
+<!------------------------------------ Pie de página   ----------------------->
+<div class="footer">  
+  <div class="footer-links">
+    <a href="#">FAQ</a>
+    <a href="#">Política de privacidad</a>
+    <a href="#">Contacto</a>
+    <a href="#">Términos de servicio
+    </div>
+</div>
+</body>
+</html>
+      

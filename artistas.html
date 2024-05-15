@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #ffd700;         
+      }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 2px solid gold;
+      
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      
+    }
+    th {
+      background-color: gold;
+      color: black;
+    }
+    td {
+      background-color: black;
+      color: gold;
+    }
+    
+       
+
+    nav {
+      display: flex; /* Despliega los elementos horizontalmente */
+        justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+        align-items: center; /* Centra verticalmente los elementos */
+        margin-bottom: 50px;
+        position: sticky; /* Hace que el nav sea pegajoso */
+        top: 0; /* Lo fija en la parte superior */
+        background-color: #000000; /* Color de fondo para destacar */
+        z-index: 1000; /* Asegura que esté por encima del contenido */
+        width: 100%; /* Ocupa todo el ancho */
+        padding: 10px 0; /* Agregar un poco de espacio alrededor */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffd700; 
+        }
+
+        nav a:hover {
+            color: #fff; 
+        }
+
+        .logo img {
+            max-width: 250px; /* Ajusta el tamaño máximo de la imagen del menu nav */
+            height: auto; /* Permitir que la altura se ajuste automáticamente */
+        }
+        
+
+        .footer {
+            margin-top: 50px;
+            text-align: center; /* Centrar el pie de página */
+        }
+        
+
+        .footer-links a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 15px; /* Espacio entre los enlaces de pie de página */
+        }
+
+        .footer-links a:hover {
+            color: #fff; 
+        }
+
+        th, td {
+        width: 33.33%; /* Divide el ancho en tres partes iguales */
+    }
+    
+    .descripcion {
+        text-align: center;
+      }
+
+  </style>
+
+</head>
+<body>
+  <nav>        
+            
+    <li><a href="index.html">Home</a></li>
+    <li><a href=>Artistas</a></li>
+    <div class="logo">
+        <img src="img/Logo.png" alt="Logo de la página">
+    </div>
+    <li><a href="quienes_somos.html">Quienes somos</a></li>
+    <li><a href="postulaciones.html">Postulaciones</a></li>
+
+  </nav>
+
+<table>
+  <thead>
+    <tr>
+      <th>Artista</th>
+      <th>Descripción</th>
+      <th>Redes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="artista">
+        <div>
+          <img src="img\Artistas\Artista 1.jpg" alt="Imagen del artista">
+          
+        </div>
+      </td>
+      <td class="descripcion">
+        <div>
+          <h1>Amesti The Gold Mind</h1>
+          <h2> Cantante y compositor </h2>
+          <h3> Estilos:</h3>
+          <h3>Trap</h3>
+          <h3>Reggaeton</h3>
+          <h3>R & B</h3>
+          <h3>Rap</h3>      
+        </div>
+      </td>
+      <td class="redes">
+        <div>
+          <a href="https://www.instagram.com/amesti.thegoldmind.gsr/" target="_blank">Instagram</a><br>
+          <a href="https://open.spotify.com/intl-es/artist/2mf8pdRoAQsZKDmpI7DqDV" target="_blank">Spotify</a><br>
+          <a href="https://www.youtube.com/channel/UCJEUWYnQ9r3zcCTlLMAJISQ" target="_blank">YouTube</a>
+        </div>
+      </td>
+    </tr>
+   
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td class="artista">
+        <div>
+          <img src="img\Artistas\Artista 2.jpg" alt="Imagen del artista">
+          
+        </div>
+      </td>
+      <td class="descripcion">
+        <div>
+          <h1>Santiz Rivera</h1>
+          <h2> Cantante, compositor, beatmaker y productor </h2>
+          <h3> Estilos:</h3>
+          <h3>Trap</h3>
+          <h3>Reggaeton</h3>
+                
+        </div>
+      </td>
+      <td class="redes">
+        <div>
+          <a href="https://www.instagram.com/santiz.rivera_gsr/" target="_blank">Instagram</a><br>
+          <a href="https://open.spotify.com/intl-es/artist/4Z9DmguJRxdBDKLjd2yMe1" target="_blank">Spotify</a><br>
+          <a href="https://www.youtube.com/@santizrivera7023?app=desktop&sub_confirmation=1&sub_confirmation=1" target="_blank">YouTube</a>
+        </div>
+      </td>
+    </tr>
+   
+  </tbody>
+
+  
+  <tbody>
+    <tr>
+      <td class="artista">
+        <div>
+          <img src="img\Artistas\Artista 3.jpg" alt="Imagen del artista">
+          
+        </div>
+      </td>
+      <td class="descripcion">
+        <div>
+          <h1>Lil.jaminsito</h1>
+          <h2>Cantante </h2>
+          <h3>Estilos:</h3>
+          <h3>Trap</h3>
+          <h3>Reggaeton</h3>
+          <h3>Rap</h3>    
+            
+        </div>
+      </td>
+      <td class="redes">
+        <div>
+          <a href="https://www.instagram.com/lil.jaminsito/" target="_blank">Instagram</a><br>
+          <a href="https://open.spotify.com/intl-es/artist/42tcSxkiGgMfYO3r5sdbh0" target="_blank">Spotify</a><br>
+          <a href="https://www.youtube.com/channel/UCIAyrN7064eIl93Ms3i8pPQ" target="_blank">YouTube</a>
+        </div>
+      </td>
+    </tr>
+   
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td class="artista">
+        <div>
+          <img src="img\Artistas\Artista 4.jpg" alt="Imagen del artista">
+          
+        </div>
+      </td>
+      <td class="descripcion">
+        <div>
+          <h1>Haiko</h1>
+          <h2>Beatmaker y producción </h2>
+          <h3>Estilos:</h3>
+          <h3>Trap</h3>
+          <h3>Reggaeton</h3>
+          <h3>Rap</h3>    
+          <h3>Electrónica</h3>   
+        </div>
+      </td>
+      <td class="redes">
+        <div>
+          <a href="https://www.instagram.com/haiko.gsr/" target="_blank">Instagram</a><br>
+          
+        </div>
+      </td>
+    </tr>
+   
+  </tbody>
+</table>
+
+<!------------------------------------ Pie de página   ----------------------->
+<div class="footer">  
+  <div class="footer-links">
+    <a href="#">FAQ</a>
+    <a href="#">Política de privacidad</a>
+    <a href="#">Contacto</a>
+    <a href="#">Términos de servicio
+  </div>
+</div>
+</body>
+</html>

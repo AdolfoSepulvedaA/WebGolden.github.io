@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+
+.slider-box {
+    width:  600px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.content-container {
+    margin-bottom: 50px; /* Agrega espacio debajo del contenedor de contenido */
+}
+
+.slider-box li {    
+    width: 100%;
+
+    list-style: none;
+    position: relative;
+}
+
+.background-image {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.background-text {
+    position: absolute; 
+    top: 50%; /* Alinea verticalmente el texto en el centro */
+    left: 50%; /* Alinea horizontalmente el texto en el centro */
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: #000000; /* Color del texto */
+    font-size: 100px; /* Tamaño de fuente del texto */
+    font-family: Times New Roman, serif;
+}
+
+.slider-box img {
+    width: 90%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    0% {margin-left: 0;}
+
+    30% {margin-left: -80%;}
+    30% {margin-left: -80%;}
+
+    50% {margin-left: -160%;}
+    50% {margin-left: -160%;}
+
+    70% {margin-left: -240%;}
+    70% {margin-left: -240%;}
+
+    100% {margin-left: -320%;}
+    100% {margin-left: -320%;}
+}
+
+
+
+
+@media(max-width:991px) {
+    
+    body {
+        padding: 80px;
+    }
+    
+    .slider-box {
+        width: 100%;
+    }
+
+    .texto {
+        top: 50px;
+        padding: 0;
+    }
+}
+
+.descripcion {
+    font-family: Georgia, 'Times New Roman', serif; /* Cambia la fuente del texto */
+  }
+
+  .artista img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 100%; /* Altura automática para mantener la relación de aspecto */
+    object-fit: cover; /* Escalar la imagen para que quepa dentro del contenedor */
+}
+
+.background-image img {
+    width: 100vw; /* Anchura igual al ancho de la ventana del navegador */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+}
+
+.textbox {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #222; /* Color de fondo para la caja de texto */
+    border-radius: 5px;
+    color: #fff; /* Color de texto */
+}
